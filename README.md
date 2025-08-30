@@ -35,48 +35,6 @@ Some of the projects included in my portfolio:
 ## 📸 Preview
 
 ![Portfolio Preview](screenshot.png)
-Got it 👍
-Here’s a clean **README.md** template you can directly use for your portfolio repository on GitHub. I’ll make it professional, simple, and appealing:
-
----
-
-# 🌐 Lovish Bansal – Portfolio
-
-Welcome to my personal portfolio repository! 🚀
-This project showcases my **skills, projects, and experiences** in web design and development.
-
-## 📌 About Me
-
-Hi, I’m **Lovish Bansal**, a passionate **Web Designer & Frontend Developer** with a strong focus on **UI/UX design**. I enjoy creating **user-friendly, responsive, and visually appealing** websites.
-
-## 🛠️ Tech Stack
-
-* **Frontend:** HTML, CSS, JavaScript
-* **Frameworks & Libraries:** Bootstrap, Tailwind (if used)
-* **Design Tools:** Figma
-* **Other:** Node.js, Express.js, MySQL (for backend projects)
-
-## 📂 Sections in My Portfolio
-
-* **About Me** – Introduction & background
-* **Skills** – Technologies I work with
-* **Projects** – Highlight of my work
-* **Services** – What I offer
-* **Contact** – Get in touch with me
-
-## 🚀 Featured Projects
-
-Some of the projects included in my portfolio:
-
-* 🏨 **Hotel Booking Website**
-* 🍔 **Food Restaurant Website**
-* 🌦️ **Weather App**
-* ✈️ **Travel Booking Website**
-* 👨‍💻 **Personal Portfolio Website**
-
-## 📸 Preview
-
-![Portfolio Preview](screenshot.png)
 <img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/16548a8b-22d5-48e7-84f0-f66b26fede27" />
 
 
