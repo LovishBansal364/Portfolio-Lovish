@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overlay on Spline Background</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+      <!-- Header  -->
+    <div class="hero">
+      <img
+        class="background"
+        src="./images/header.jpg"
+        style="width: 100%; height: 90vh;"
+      ></img>
+
+      <div class="content">
+        <header>
+          <nav class="navbar" id="navigation">
+            <div><span>Lovish <span style="color: #4895ef;">Bansal</span></div>
+            <div class="nav-links">
+              <a href="#">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#project">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </header>
+        
+
+        <div class="main-content">
+          <h1>Hi, I’m <span>Lovish</span></h1>
+          <div class="typewriter" style="margin-bottom: 3%;">
+            <span id="typed-text" style="color: #94a3b8"></span
+            ><span class="cursor"></span>
+          </div>
+          <h2 style="padding-bottom: 20px;">
+            Crafting digital experiences that inspire and engage through
+            innovative design and cutting-edge technology.
+          </h2>
+          <p><a href="#about" style="color: #fff; text-decoration: none;"><i class="fa-solid fa-arrow-down fa-bounce"></i> Scroll Down</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Scrollable content -->
+    <div class="section" id="about">
+      <div class="left-main">
+        <div class="left scroll-slide-right">
+          <div class="left-img">
+            <img src="./images/profile.png" alt="image" />
+          </div>
+          <button
+            class="about-btn"
+            id="aboutBtn"
+            style="margin-left: 220%; margin-top: 72%; width: 50%; color: #6995c7;"
+          >
+            Know More →
+          </button>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>About <span style="color: #4895ef;">Me</span></h2>
+        <p>
+          Hi there! I'm Lovish bansal, a passionate web developer with expertise
+          in creating immersive digital experiences. I specialize in frontend
+          development with a focus on modern technologies and cutting-edge
+          design.
+        </p>
+        <p>
+          I love working with GSAP animations, React, and creating interactive
+          3D experiences that push the boundaries of what's possible on the web.
+          My goal is to bring ideas to life through clean code and stunning
+          visuals.
+        </p>
+        <h4>Tech <span style="color: #4895ef;">Stack</span></h4>
+        <div class="main-card">
+          <div class="card">
+            <i
+              class="fa-brands fa-html5"
+              style="color: rgb(241, 140, 15); font-size: 28px; margin-top: 2%"
+            ></i>
+            <p style="color: #fff">HTML</p>
+          </div>
+          <div class="card">
+            <i
+              class="fa-brands fa-css3-alt"
+              style="color: rgb(32, 55, 89); font-size: 28px; margin-top: 2%"
+            ></i>
+            <p style="color: #fff">CSS</p>
+          </div>
+          <div class="card">
+            <i
+              class="fa-brands fa-js"
+              style="color: yellow; font-size: 28px; margin-top: 2%"
+            ></i>
+            <p style="color: #fff">JavaScript</p>
+          </div>
+          <div class="card">
+            <i
+              class="fa-brands fa-bootstrap"
+              style="color: rgb(95, 43, 95); font-size: 28px; margin-top: 2%"
+            ></i>
+            <p style="color: #fff">Bootstarp</p>
+          </div>
+          <div class="card">
+            <i
+              class="fa-brands fa-figma figma-icon"
+              style="font-size: 25px; margin-top: 2%"
+            ></i>
+            <p style="color: #fff">Figma</p>
+          </div>
+          <div class="card">
+            <i
+              class="fa-brands fa-python python-icon"
+              style="font-size: 28px; margin-top: 2%"
+            ></i>
+            <p style="color: #fff">Python</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Know More Overlay -->
+    <div class="overlay" id="overlay">
+      <div class="overlay-content">
+        <span class="close-btn" id="closeBtn" style="color: #fff">&times;</span>
+        <h2 style="padding-bottom: 10px">My Skills</h2>
+
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">HTML</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="95"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">CSS</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="90"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">JavaScript</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="85"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">Figma</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="80"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">MongoDB</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="75"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">Bootstrap</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="85"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name" style="color: #fff">Python</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              data-progress="70"
+              style="color: #fff; padding-top: 3px"
+            >
+              0%
+            </div>
+          </div>
+        </div>
+
+        <h2>Education</h2>
+        <p>
+          B.Tech in Computer Science Engineering (CSE) - Amity University
+          Gurgaon
+        </p>
+
+        <button class="resume-btn" onclick="window.open('resume.pdf')">
+          Download Resume
+        </button>
+      </div>
+    </div>
+
+    <!-- Services  -->
+    <div
+      class="services_heading"
+      id="services"
+      style="background-color: #18181b"
+    >
+      <h2
+        style="
+          text-align: center;
+          padding-top: 3%;
+          font-size: 32px;
+          color: #fff;
+        "
+      >
+        My <span style="color: #4895ef;">Services</span>
+      </h2>
+    </div>
+
+    <div class="services">
+      <div class="service1 zoom1">
+        <div class="s1_icon">
+          <i class="fa-brands fa-figma"></i>
+        </div>
+        <div class="s1_heading">
+          <h4>UI/UX Design</h4>
+        </div>
+        <div class="s1_info">
+          <p>
+            Turning complex ideas into simple, engaging, and visually appealing
+            experiences.
+          </p>
+        </div>
+        <div class="s1_btn">
+          <button>Know more</button>
+        </div>
+      </div>
+      <div class="service1 zoom2">
+        <div class="s1_icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="s1_heading">
+          <h4>Frontend Development</h4>
+        </div>
+        <div class="s1_info">
+          <p>
+            Designing intuitive and user-friendly interfaces for seamless
+            digital experiences.
+          </p>
+        </div>
+        <div class="s2_btn">
+          <button>Know more</button>
+        </div>
+      </div>
+      <div class="service1 zoom3">
+        <div class="s1_icon">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <div class="s1_heading">
+          <h4>Computer Vision</h4>
+        </div>
+        <div class="s1_info">
+          <p>
+            Transforming designs into fast, user-friendly, and pixel-perfect
+            websites.
+          </p>
+        </div>
+        <div class="s3_btn">
+          <button>Know more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Overlay -->
+    <div id="serviceOverlay" class="overlay_s">
+      <div class="overlay-content_s">
+        <span class="close-btn2">&times;</span>
+        <h2 style="color: #fff">UI/UX Design</h2>
+        <ul>
+          <li>
+            <span class="tick">✔</span> Wireframing & prototyping in Figma
+          </li>
+          <li><span class="tick">✔</span> Intuitive navigation & flow</li>
+          <li><span class="tick">✔</span> Responsive website design</li>
+          <li><span class="tick">✔</span> Interactive UI with React/JS</li>
+        </ul>
+      </div>
+    </div>
+    <div id="serviceOverlay_f" class="overlay_s">
+      <div class="overlay-content_s">
+        <span class="close-btn3">&times;</span>
+        <h2 style="color: #fff">Frontend Development</h2>
+        <ul>
+          <li><span class="tick">✔</span> Responsive website design</li>
+          <li><span class="tick">✔</span> Interactive UI with React/JS</li>
+          <li><span class="tick">✔</span> Pixel-perfect implementation</li>
+          <li><span class="tick">✔</span> Performance optimization</li>
+        </ul>
+      </div>
+    </div>
+    <div id="serviceOverlay_c" class="overlay_s">
+      <div class="overlay-content_s">
+        <span class="close-btn4">&times;</span>
+        <h2 style="color: #fff">Computer Vision</h2>
+        <ul>
+          <li>
+            <span class="tick">✔</span> Image classification & recognition
+          </li>
+          <li><span class="tick">✔</span> Object detection & tracking</li>
+          <li><span class="tick">✔</span> Face detection & recognition</li>
+          <li><span class="tick">✔</span> Gesture & motion analysis</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Featured Projects  -->
+    <div class="projects script" id="project">
+      <h2 style="font-size: 32px; padding-top: 8%">Featured <span style="color: #4895ef;">Projects</span></h2>
+      <div class="cards">
+        <div class="card1 scroll-slide-up">
+          <div class="project-image" style="width: 100%; height: 30vh">
+            <img
+              src="./images/project2.png"
+              alt=""
+              style="
+                width: 100%;
+                height: 30vh;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+              "
+            />
+          </div>
+
+          <h3 style="padding-left: 10px">Foodies Website</h3>
+          <p style="padding-left: 10px">
+            Immersive web experience with AOS animations and ease of use.
+          </p>
+          <div class="link" style="padding-left: 10px">
+            <a
+              href="https://food-restraunt.netlify.app/"
+              style="font-size: 13px; padding-right: 12px"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+            </a>
+
+            <a
+              href="https://github.com/LovishBansal364/Food--restraunt"
+              style="font-size: 13px"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+        <div class="card1 scroll-slide-up">
+          <div class="project-image" style="width: 100%; height: 30vh">
+            <img
+              src="./images/project3.png"
+              alt=""
+              style="
+                width: 100%;
+                height: 30vh;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+              "
+            />
+          </div>
+
+          <h3 style="padding-left: 10px">Hotel Restraunt Website</h3>
+          <p style="padding-left: 10px">
+            Modern and user-friendly website with semaless booking menu display.
+          </p>
+
+          <div class="link" style="padding-left: 10px">
+            <a
+              href="https://hotel-website-l.netlify.app/"
+              style="font-size: 13px; padding-right: 12px"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a
+            >
+
+            <a
+              href="https://github.com/LovishBansal364/Hotel-Website"
+              style="font-size: 13px"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i> Code</a
+            >
+          </div>
+        </div>
+        <div class="card1 scroll-slide-up">
+          <div class="project-image" style="width: 100%; height: 30vh">
+            <img
+              src="./images/project.png"
+              alt=""
+              style="
+                width: 100%;
+                height: 30vh;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+              "
+            />
+          </div>
+
+          <h3 style="padding-left: 10px">3D Interactive Portfolio</h3>
+          <p style="padding-left: 10px">
+            Developed a personal portfolio website to showcase skills, projects,
+            and experience.
+          </p>
+          <div class="link" style="padding-left: 10px">
+            <a
+              href="#"
+              style="font-size: 13px; padding-right: 12px"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+            </a>
+
+            <a href="#" style="font-size: 13px" target="_blank"
+              ><i class="fa-brands fa-github"></i> Code</a
+            >
+          </div>
+        </div>
+        <div class="card1 scroll-slide-down">
+          <div class="project-image" style="width: 100%; height: 30vh">
+            <img
+              src="./images/project4.png"
+              alt=""
+              style="
+                width: 100%;
+                height: 30vh;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+              "
+            />
+          </div>
+
+          <h3 style="padding-left: 10px">Task Management System</h3>
+          <p style="padding-left: 10px">
+            Built a responsive task management system for organizing and
+            tracking tasks efficiently.
+          </p>
+          <div class="link" style="padding-left: 10px">
+            <a
+              href="https://www.figma.com/design/tP9v2Zm8w2HgOZJSxk8kdl/Task-Manager?node-id=0-1&t=AaTSQo24EnW635Rb-1"
+              style="font-size: 13px; padding-right: 12px"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a
+            >
+
+            <a
+              href="https://www.figma.com"
+              style="font-size: 13px"
+              target="_blank"
+              ><i class="fa-brands fa-figma"></i> Tool</a
+            >
+          </div>
+        </div>
+        <div class="card1 scroll-slide-down">
+          <div class="project-image" style="width: 100%; height: 30vh">
+            <img
+              src="./images/project5 (2).png"
+              alt=""
+              style="
+                width: 100%;
+                height: 30vh;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+              "
+            />
+          </div>
+
+          <h3 style="padding-left: 10px">Created Grabber App</h3>
+          <p style="padding-left: 10px">
+            Designed a Grabber app prototype in Figma to streamline content capturing and organization.
+          </p>
+          <div class="link" style="padding-left: 10px">
+            <a
+              href="https://www.figma.com/design/AVnohrRq4jhUrdSa3l4tOf/Grabber-App?t=pqNZvavdP17Fr6uT-1"
+              style="font-size: 13px; padding-right: 12px"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a
+            >
+
+            <a href="https://www.figma.com" style="font-size: 13px" target="_blank"
+              ><i class="fa-brands fa-figma"></i> Tool</a
+            >
+          </div>
+        </div>
+        <div class="card1 scroll-slide-down">
+          <div class="project-image" style="width: 100%; height: 30vh">
+            <img
+              src="./images/project7 (2).png"
+              alt=""
+              style="
+                width: 100%;
+                height: 30vh;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+              "
+            />
+          </div>
+
+          <h3 style="padding-left: 10px">Object Detection</h3>
+          <p style="padding-left: 10px">
+            Object Detection project which detects several objects using opencv library.
+          </p>
+          <div class="link" style="padding-left: 10px">
+            <a
+              href="https://opencv.org/"
+              style="font-size: 13px; padding-right: 12px"
+              target="_blank"
+              ><i class="fa-solid fa-globe"></i></i> Website</a
+            >
+
+            <a href="https://github.com/LovishBansal364/Object-Detection" style="font-size: 13px" target="_blank"
+              ><i class="fa-brands fa-github"></i> Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Details  -->
+
+    <div class="contact" id="contact">
+      <h2>Get <span style="color: #4895ef;">In Touch</span></h2>
+      <p
+        style="
+          text-align: center;
+          letter-spacing: 0.2px;
+          color: #94a3b8;
+          font-size: 18px;
+        "
+      >
+        Ready to bring ideas to life? Let's collaborate and create something
+        amazing<br />
+        together.
+      </p>
+
+      <div class="form">
+        <div class="contact-left scroll-slide-right">
+          <form action="" method="post" name="contactForm" id="contactForm">
+            <div class="name">
+              <label for="" style="color: #4895ef">Your Name</label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="email">
+              <label for="" style="color: #4895ef">Your Email</label>
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="textarea">
+              <label for="" style="color: #4895ef">Message</label>
+              <textarea
+                type="text"
+                name="Message"
+                id=""
+                placeholder="Type here..."
+              ></textarea>
+            </div>
+            <div class="send-button">
+              <button type="submit" name="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-right scroll-slide-left">
+          <h3 style="color: #4895ef">Let's Connect</h3>
+          <div class="detail-email">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="text">
+              <p>
+                Email
+                <a href="mailto: lovish03official@gmail.com" style="color: #fff"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </p>
+              <p>lovish03official@gmail.com</p>
+            </div>
+          </div>
+          <div class="detail-phone">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="text">
+              <p>Phone</p>
+              <p>+91 9306512449</p>
+            </div>
+          </div>
+          <div class="detail-location">
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="text">
+              <p>Location</p>
+              <p>Sirsa, Haryana</p>
+            </div>
+          </div>
+
+          <p style="color: #4895ef; font-weight: 800">Follow me on</p>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/bansallovish/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/LovishBansal364" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://web.telegram.org/k/" target="_blank"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div id="successToast" class="toast">
+      <span class="checkmark">✔</span>
+      <span style="color: #111;">Message sent successfully!</span>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <div class="name">
+        <h3>Lovish Bansal</h3>
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+      <div class="f_links">
+        <a
+          href="https://www.linkedin.com/in/bansallovish/"
+          target="_blank"
+          style="color: #fff"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://web.telegram.org/k/"
+          target="_blank"
+          style="color: #fff"
+          ><i class="fa-brands fa-telegram"></i
+        ></a>
+        <a
+          href="https://github.com/LovishBansal364"
+          target="_blank"
+          style="color: #fff"
+          ><i class="fa-brands fa-square-github"></i
+        ></a>
+      </div>
+      <div class="copyright">© 2025 Lovish Bansal</div>
+    </div>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          fetch(
+            "https://script.google.com/macros/s/AKfycbzPv-2nmWb4Fpw7FjWajfi8AXRwSlGaD7ivbxKF7b-b1EaDn4HZp7cV-DJEHrD7czpEww/exec",
+            {
+              method: "POST",
+              body: new FormData(document.getElementById("contactForm")),
+            }
+          )
+            .then((response) => response.text())
+            .then((text) => {
+              const toast = document.getElementById("successToast");
+              toast.style.display = "flex";
+
+              // Hide after 3 seconds
+              setTimeout(() => {
+                toast.style.display = "none";
+              }, 3000);
+
+              document.getElementById("contactForm").reset();
+            })
+            .catch((err) => {
+              alert("Error: " + err);
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
