@@ -10,9 +10,8 @@ Hi, I’m **Lovish Bansal**, a passionate **Web Designer & Frontend Developer** 
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
-* **Frameworks & Libraries:** Bootstrap, Tailwind (if used)
 * **Design Tools:** Figma
-* **Other:** Node.js, Express.js, MySQL (for backend projects)
+* **Other:** Email.js
 
 ## 📂 Sections in My Portfolio
 
@@ -34,15 +33,14 @@ Some of the projects included in my portfolio:
 
 ## 📸 Preview
 
-![Portfolio Preview](screenshot.png)
 <img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/16548a8b-22d5-48e7-84f0-f66b26fede27" />
 
 
 ## 📬 Contact Me
 
-* **Email:** [your-email@example.com](mailto:your-email@example.com)
-* **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/your-profile)
-* **Portfolio Website:** [Live Demo](https://your-portfolio-link.com)
+* **Email:** [your-email@example.com](mailto:lovish03official@gmail.com)
+* **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/bansallovish/)
+* **Portfolio Website:** [Live Demo](https://lovishb-portfolio.netlify.app)
 
 ---
 
