@@ -27,7 +27,6 @@ Some of the projects included in my portfolio:
 
 * 🏨 **Hotel Booking Website**
 * 🍔 **Food Restaurant Website**
-* 🌦️ **Weather App**
 * ✈️ **Travel Booking Website**
 * 👨‍💻 **Personal Portfolio Website**
 
@@ -38,9 +37,9 @@ Some of the projects included in my portfolio:
 
 ## 📬 Contact Me
 
-* **Email:** [your-email@example.com](mailto:lovish03official@gmail.com)
-* **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/bansallovish/)
-* **Portfolio Website:** [Live Demo](https://lovishb-portfolio.netlify.app)
+* **Email:** [mailto:lovish03official@gmail.com]
+* **LinkedIn:** [https://www.linkedin.com/in/bansallovish/]
+* **Portfolio Website:** [https://lovishb-portfolio.netlify.app]
 
 ---
 
